@@ -6,7 +6,13 @@ body {
   background: linear-gradient(135deg, #371A5E, #0000FF);
   background-repeat: no-repeat;
   background-size: 100%;
-  text-align: center; }
+  text-align: center;
+  max-width: 600px;
+  margin: 0 auto;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center; }
 
 h1 {
   text-align: center;
@@ -37,12 +43,14 @@ h2 {
           justify-content: center; }
 
 #total {
-  display: inline-block;
+  display: block;
   text-align: center; }
 
 #points {
   display: inline-block;
-  text-align: center; }
+  text-align: center;
+  font-size: 15em;
+  margin: 25px; }
 
 button {
   height: 80px;

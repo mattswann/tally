@@ -10779,7 +10779,7 @@ var counter = localStorage.getItem('count');
 
 
 $('#add').on('click', function(){
-  counter ++;
+  counter += 10;
   console.log(counter);
   $('#points').html(counter);
   localStorage.setItem('count', counter);
